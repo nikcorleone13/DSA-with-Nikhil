@@ -2,7 +2,7 @@
 using namespace std;
 
 int sum( int n){
-    if( n == 0){ //base condition to stop the recurison
+    if( n == 0){ //base condition 
         return 0;
     }
 
