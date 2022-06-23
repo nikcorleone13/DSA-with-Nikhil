@@ -2,7 +2,7 @@
 using namespace std;
 
 int factorial( int n){
-    if( n == 1){
+    if( n == 1){ //base condition to stop the recurison
         return n;
     }
 
