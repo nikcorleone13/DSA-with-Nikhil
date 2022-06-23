@@ -6,11 +6,11 @@ using namespace std;
 int fibo ( int num){
 
     cout<<num<<endl;
-    if( num <2){
+    if( num <2){         //Base case to stop the recursion
         return num;
     }
     else {
-        return (fibo(num-1) + fibo(num-2));
+        return (fibo(num-1) + fibo(num-2));  //recurrence relation
         
     }
 }
